@@ -1,3 +1,39 @@
+## [0.2.13](https://github.com/xdy/twodsix-foundryvtt/compare/v0.2.12...v0.2.13) (2020-08-05)
+
+
+### Bug Fixes
+
+* Change name of 'Personal Info' tab to just 'Info' ([f75ca78](https://github.com/xdy/twodsix-foundryvtt/commit/f75ca780806c557fdb8cb389596c3186fe2807c0))
+* Css fixes from Kevin. ([3937c23](https://github.com/xdy/twodsix-foundryvtt/commit/3937c23f03f352493e7897cbb629ee94ea56902e))
+
+## [0.2.12](https://github.com/xdy/twodsix-foundryvtt/compare/v0.2.11...v0.2.12) (2020-08-05)
+
+
+### Bug Fixes
+
+* Several problems with the character sheet (mainly pointing at the wrong field) ([cb53457](https://github.com/xdy/twodsix-foundryvtt/commit/cb53457072e3e5061cb175725ea07f63d9875bb6))
+
+## [0.2.11](https://github.com/xdy/twodsix-foundryvtt/compare/v0.2.10...v0.2.11) (2020-08-05)
+
+
+### Bug Fixes
+
+* One can now roll characteristics by clicking on the characteristic name ([f3095a3](https://github.com/xdy/twodsix-foundryvtt/commit/f3095a3bd806896c658402759e761d1f1f2b2e90))
+
+## [0.2.10](https://github.com/xdy/twodsix-foundryvtt/compare/v0.2.9...v0.2.10) (2020-08-05)
+
+
+### Bug Fixes
+
+* Fixed cut and paste that broke psi modifier. ([0454664](https://github.com/xdy/twodsix-foundryvtt/commit/045466470ba2031ff097b3c307b85ea7d2b5edc8))
+
+## [0.2.9](https://github.com/xdy/twodsix-foundryvtt/compare/v0.2.8...v0.2.9) (2020-08-05)
+
+
+### Bug Fixes
+
+* Added Kevin's CSS/Template changes ([554b4c3](https://github.com/xdy/twodsix-foundryvtt/commit/554b4c3ab70517c212f42264d432182825456a1f))
+
 ## [0.2.8](https://github.com/xdy/twodsix-foundryvtt/compare/v0.2.7...v0.2.8) (2020-08-04)
 
 
