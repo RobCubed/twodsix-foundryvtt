@@ -239,6 +239,7 @@ svg:hover {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
+    padding: 30px 10px 5px 10px;
 }
 
 /* TABS */
@@ -256,6 +257,53 @@ svg:hover {
 a:hover {
     text-shadow: 0 0 8px #29aae1;
   }
+
+/* skills section */
+.inlineblock-2col {
+  display: inline-block;
+  width: 230px;
+}
+
+.inlineblock-right {
+  text-align: right;
+}
+
+.inlineblock-center {
+  text-align: center;
+}
+
+.skill-box {
+  border: 1px;
+  border-style: solid;
+  border-color: #29aae1;
+  margin: 2px 0;
+}
+
+.skill-box:hover {
+  background-color: #112b36;
+}
+
+.skill-box-name {
+  display: inline-block;
+  width: 135px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  margin: 0 0 0 3px;
+}
+
+.skill-box-value {
+  display: inline-block;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.skill-box-selector {
+  display: inline-block;
+  width: 50px;
+  vertical-align: middle;
+}
 
 /* Style overrides */
 

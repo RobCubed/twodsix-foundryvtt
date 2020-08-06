@@ -1,3 +1,5 @@
+import { Skill } from "types/Skill";
+
 export default function registerHandlebarsHelpers():void {
   Handlebars.registerHelper({
     add: (v1, v2) => v1 + v2,
@@ -17,4 +19,22 @@ export default function registerHandlebarsHelpers():void {
       return Array.prototype.slice.call(arguments, 0, -1).some(Boolean);
     }
   });
+
+  Handlebars.registerHelper('getSkillByName', (items:ItemData<Skill>[], skillName:string) => {
+    return getMatchingSkillByName(items, skillName);
+  });
+
+  Handlebars.registerHelper('getSkillValueByName', (items:ItemData<Skill>[], skillName:string) => {
+    const matchingSkill:ItemData<Skill> = getMatchingSkillByName(items, skillName);
+
+    if (matchingSkill) return matchingSkill.data.value;
+    return null;
+  });
 }
+
+
+const getMatchingSkillByName = (skills:ItemData<Skill>[], skillName:string) => {
+  return skills.find((i) => {
+    return i.type === 'skill' && i.name === skillName;
+  });
+};

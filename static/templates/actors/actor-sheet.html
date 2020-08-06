@@ -72,15 +72,6 @@
     <div class="character-tabs-info sheet-body">
       {{!-- Skills Tab --}}
       <div class="tab skills" data-group="primary" data-tab="skills">
-        <div class="item flexrow item-header">
-          <div class="item-image"></div>
-          <div class="item-name">Name</div>
-          <div class="item-controls">
-            <a class="item-control item-create" title="Add new skill" data-type="skill"><i
-              class="fas fa-plus"></i> Add new skill</a>
-          </div>
-        </div>
-
         {{#unless data.flags.locked}} <!-- TODO Add lock...-->
         {{/unless}}
         {{> "systems/twodsix/templates/actors/parts/actor-skills.html"}}
